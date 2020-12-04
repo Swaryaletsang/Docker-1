@@ -1,0 +1,1 @@
+eval $(sudo docker-machine env CHar)
