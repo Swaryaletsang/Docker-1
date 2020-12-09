@@ -1,0 +1,1 @@
+docker-machine ssh Aiur "sudo docker swarm join --token $(sudo docker swarm join-token worker -q) $(sudo docker-machine ip Char):2377"
